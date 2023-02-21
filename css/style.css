@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    font-weight: 600;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-left: 40px;
+    text-align: left;
+
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 230px;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 20px;
+
+    text-align: left;
+
+    color: white;
+}
+
+header {
+    background-color: rgb(250, 208, 44);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+
+nav {
+    height: 50px;
+    display: flex;
+    justify-content: right;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    margin-top: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1px;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+a:hover {
+    background-color: transparent;
+}
+
+/* CONVERSION TAB */
+
+.card-convert {
+    float: center;
+    margin-top: 120px;
+    border-radius: 45px;
+    height: 250px;
+    width: 700px;
+    background-color: #ffffff;
+    float: left;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://wallpapercave.com/wp/wp1843998.jpg);
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.txt-convert {
+
+    margin-top: 0px;
+    margin-left: 70px;
+    background-color: white;
+    color: #000;
+    outline: none;
+
+    outline-style: none;
+    border-top: solid #ffffff 2px;
+    border-left: solid #ffffff 2px;
+    border-right: solid #ffffff 2px;
+    border-bottom: solid #ffffff 2px;
+
+    border-radius: 50px;
+    padding: 3px 10px;
+    font-size: 40px;
+}
+
+.btn-convert {
+
+    margin-top: 10px;
+    margin-left: 270px;
+    background-color: rgb(250, 208, 44);
+    border: rgb(250, 208, 44);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px 20px;
+    border-radius: 20 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.btn-convertAgain {
+
+    margin-top: 20px;
+    margin-left: 230px;
+    background-color: rgb(250, 208, 44);
+    border: rgb(250, 208, 44);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding: 10px 30px;
+    border-radius: 20 px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+/* CURRENCY TAB */
+
+.card-currency {
+    margin-right: 30px;
+    margin-top: 120px;
+    border-radius: 45px;
+    height: 720px;
+    width: 700px;
+    background-color: #ffffff;
+    float: right;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://w0.peakpx.com/wallpaper/338/1021/HD-wallpaper-white-crumpled-paper-texture-white-paper-background-paper-texture-paper.jpg);
+
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.currency {
+
+    color: white;
+
+    font-size: 50px;
+    text-align: justify;
+    font-weight: 700;
+}
+
+.php-usd {
+    font-size: 50px;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 20px;
+
+    margin-left: 90px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.values {
+    margin-top: -1px;
+    font-size: 20px;
+    margin-left: 50px;
+
+    color: white;
+}
+
+/* RESULT TAB */
+.card-result {
+
+    margin-top: 20px;
+    border-radius: 45px;
+    height: 450px;
+    width: 700px;
+    background-color: #ffffff;
+    float: left;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://w0.peakpx.com/wallpaper/338/1021/HD-wallpaper-white-crumpled-paper-texture-white-paper-background-paper-texture-paper.jpg);
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+table {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-collapse: collapse;
+    font-size: 30px;
+    color: white;
+    border-color: #000;
+    border-radius: 20px;
+    text-align: center;
+}
+
+table {
+
+    display: block;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+
+    /* styles for screens up to 768px wide */
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .card-currency {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* styles for screens between 769px and 1024px wide */
+    body {
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .card-convert {
+        margin-left: -30px;
+    }
+
+    .card-result {
+        margin-left: -30px;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    /* styles for screens wider than 1025px */
+
+}
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 768px) {
+
+    div#currency {
+        margin-right: -240px;
+        font-size: 20px;
+        padding: 20px
+    }
+
+}
